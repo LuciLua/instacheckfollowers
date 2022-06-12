@@ -39,13 +39,19 @@ cd ./instacheckfollowers
 pip install -r requirements.txt
 ```
 
+> Load your session on instaloader
+
+```bash
+instaloader --login <username>
+```
+
 ## 🏇 How to use
 
 > Firts you must have run exec.py with the params necessarys, after this you can run compare.py for generate the list of non-followers that you following
 
 #### 1. params of "exec.py"
  ```bash
-python exec.py --username *<your_username>* --whois *<acount_query>*
+python exec.py --username <your_username> --whois <acount_query>
 ``` 
 #### 2. In "compare.py"
  

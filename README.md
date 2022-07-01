@@ -67,16 +67,11 @@ The table generated in the terminal also shows a a relationship between your fol
 
 ## 🐜 Solve bug "empty followers or/and following"
 
-1. run this command:
-```bash
-yarn cache clean
-```
-
-2. Delete the folder "Instaloader" on .../%AppData%/Local
+1. Delete the folder "Instaloader" on .../%AppData%/Local
 
 After this, you need do login again:
 
-3. Login again
+2. Login again
 
 ```bash
 instaloader --login <username>

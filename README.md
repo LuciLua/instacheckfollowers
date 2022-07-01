@@ -65,6 +65,25 @@ At last, three files are generated: (1) followers, (2) following, and (3) non-fo
 
 The table generated in the terminal also shows a a relationship between your followers and followers
 
+## 🐜 Solve bug "empty followers or/and following"
+
+1. run this command:
+```bash
+yarn cache clean
+```
+
+2. Delete the folder "Instaloader" on .../%AppData%/Local
+
+After this, you need do login again:
+
+3. Login again
+
+```bash
+instaloader --login <username>
+```
+
+And all is OK!
+
 ## 🖼 Preview
 
 **So far, this is the preview, but you can check it out at [this updated link](https://pokedex-of-luci.vercel.app/)**
